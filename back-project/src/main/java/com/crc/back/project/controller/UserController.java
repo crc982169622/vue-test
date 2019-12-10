@@ -14,6 +14,7 @@ import java.util.List;
  * @Description: 描述
  */
 @RestController
+@RequestMapping("/user")
 public class UserController {
 
     @Autowired
